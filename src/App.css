@@ -1,12 +1,58 @@
-.App {
+
+*{
+  background-color: black;
+  color: white;
+}.App {
   text-align: center;
 }
 
+.app-main-div{
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.open-book-div{
+  display: flex;
+  height: 40vh;
+  margin:2% 5%;
+  border: 2px solid white;
+}
+.book-left-part{
+  display: flex;
+  margin: 0 2%;
+  flex-direction: column;
+ 
+ 
+}
+.book-left-part1 {
+  display: flex;
+  justify-content: space-between;
+}
+.rating-part{
+  display: flex;
+  gap: 5%;
+}
+.buttons-for-book{
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+}
+.buttons-for-book button{
+background-color: gray;
+width: 10vw;
+}
+.main-books-image{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 5%;
+  row-gap: 10%;
+}
+.main-books-image img{
+  height: 30vh;
+  width: 10vw;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

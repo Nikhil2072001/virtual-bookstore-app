@@ -1,0 +1,20 @@
+.header-main{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(57, 60, 60); */
+    border-bottom: 2px solid gray;
+}
+.header-main input{
+    width: 35%;
+    background-color: rgb(210, 201, 201);
+    color: rgb(15, 14, 14);
+}
+.header-main button{
+    width: 8%;
+    border: 2px solid gray;
+}
+.icon :hover{
+    cursor: pointer;
+}
